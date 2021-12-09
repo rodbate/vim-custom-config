@@ -1,0 +1,47 @@
+set nocompatible
+set filetype plugin indent on
+set tabstop=4
+set expandtab on
+set shiftwidth=4
+set softtabstop=-1
+set encoding=utf-8
+
+
+syntax on
+
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+
+set scrolloff=5
+set wildmenu
+
+nmap J 5j
+nmap K 5k
+
+
+nnoremap ;e :action SearchEverywhere<CR>
+nnoremap ;g :action FindInPath<CR>
+nnoremap ;s :action FileStructurePopup<CR>
+
+nnoremap gd :action GotoDeclaration<CR>
+nnoremap gs :action GotoSuperMethod<CR>
+nnoremap gi :action GotoImplementation<CR>
+nnoremap gb :action JumpToLastChange<CR>
+
+nnoremap U :action FindUsages<CR>
+nnoremap R :action RenameElement<CR>
+
+nnoremap == :action ReformatCode<CR>
+vnoremap == :action ReformatCode<CR>
+
+nnoremap cc :action CommentByLineComment<CR>
+vnoremap cc :action CommentByLineComment<CR>
+
+nnoremap cb :action CommentByBlockComment<CR>
+vnoremap cb :action CommentByBlockComment<CR>
+
+
+nnoremap bb :action Back<CR>
+nnoremap pp :action Forward<CR>
