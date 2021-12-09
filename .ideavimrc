@@ -1,7 +1,9 @@
 set nocompatible
-set filetype plugin indent on
+filetype on
+filetype plugin on
+filetype indent on
 set tabstop=4
-set expandtab on
+set expandtab
 set shiftwidth=4
 set softtabstop=-1
 set encoding=utf-8
