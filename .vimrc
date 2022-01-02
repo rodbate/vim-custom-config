@@ -58,7 +58,7 @@ nnoremap K 5k
 
 " copy to outer vim and paste from outer vim
 vnoremap <C-c> "+y
-nnoremap <C-p> "+P
+nnoremap <C-l> "+P
 
 " clear highlight
 nnoremap <silent> hc :noh<cr>
