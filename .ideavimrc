@@ -81,3 +81,28 @@ inoremap $e ""<esc>i
 " switch tabs
 nnoremap <S-tab> :tabprevious<CR>                                                                            
 nnoremap <tab> :tabnext<CR>
+
+" intellij config
+nnoremap ;e :action SearchEverywhere<CR>
+nnoremap ;g :action FindInPath<CR>
+nnoremap ;s :action FileStructurePopup<CR>
+
+nnoremap gd :action GotoDeclaration<CR>
+nnoremap gs :action GotoSuperMethod<CR>
+nnoremap gi :action GotoImplementation<CR>
+nnoremap gb :action JumpToLastChange<CR>
+
+nnoremap U :action FindUsages<CR>
+nnoremap R :action RenameElement<CR>
+
+nnoremap == :action ReformatCode<CR>
+vnoremap == :action ReformatCode<CR>
+
+nnoremap cc :action CommentByLineComment<CR>
+vnoremap cc :action CommentByLineComment<CR>
+
+nnoremap cb :action CommentByBlockComment<CR>
+vnoremap cb :action CommentByBlockComment<CR>
+
+nnoremap bb :action Back<CR>
+nnoremap pp :action Forward<CR>
