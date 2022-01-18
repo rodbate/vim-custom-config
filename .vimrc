@@ -14,6 +14,10 @@ set number
 set relativenumber
 set completeopt=menuone,longest
 
+if has("autocmd")
+    autocmd FileType yaml setlocal tabstop=2 shiftwidth=2
+endif
+
 set hlsearch
 set incsearch
 set ignorecase
