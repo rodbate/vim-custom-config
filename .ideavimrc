@@ -109,6 +109,6 @@ vnoremap cc :action CommentByLineComment<CR>
 nnoremap cb :action CommentByBlockComment<CR>
 vnoremap cb :action CommentByBlockComment<CR>
 
-nnoremap pb :action Back<CR>
+nnoremap <silent> <leader>b :action Back<CR>
 
 nnoremap tt :action Annotate<CR>
