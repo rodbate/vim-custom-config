@@ -65,7 +65,7 @@ vnoremap <C-c> "+y
 nnoremap <C-l> "+p
 
 " clear highlight
-nnoremap <silent> hc :noh<cr>
+nnoremap <silent> <leader>hc :noh<cr>
 
 " Move a line of text using ALT+[jk]
 nnoremap <silent> <leader>j :m+<CR>==
