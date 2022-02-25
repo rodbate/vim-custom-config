@@ -16,6 +16,7 @@ set completeopt=menuone,longest
 
 if has("autocmd")
     autocmd FileType yaml setlocal tabstop=2 shiftwidth=2
+    autocmd FileType json setlocal tabstop=2 shiftwidth=2
 endif
 
 set hlsearch
